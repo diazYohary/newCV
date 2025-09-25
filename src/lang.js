@@ -3,8 +3,9 @@ import { createI18n } from "vue-i18n";
 const messages = {
   en: {
     presentation: {
-      title_pt1: "Web Developer",
+      title_pt1: "Frontend Developer & UX/UI Designer",
       title_pt2: "IT Engineer",
+      ctaBtn:'Learn more'
       },
     aboutme:{
       title:"About Me",
@@ -17,7 +18,12 @@ const messages = {
         title:"BMTools",
         role:"Frontend Developer & UX/UI Designer",
         location:"Puebla, Mexico",
-        dates:"July 2025",
+        dates:"July 2025 - Present",
+        A1:'Leadership in the product lifecycle, from ideation and prototyping in Figma to functional code implementation, ensuring an intuitive user experience on SaaS platforms.',
+        A2:'Development of dynamic and modular interfaces, creating reusable components with the necessary programming logic to interact directly with the database.',
+        A3:'Optimization and redesign of digital products, enhancing usability and information architecture to boost performance and key business metrics.',
+        A4:'Implementation of version control with Git/GitHub, managing the integration of new features and ensuring efficient collaboration among development teams.',
+        A5:'Large-scale platform management, administering key configurations and ensuring accurate content updates and maintenance for complex products.',
       },
       dfsoft:{
         title:"DFSOFT",
@@ -42,11 +48,12 @@ const messages = {
       T7:"Languages",
       LVL1:"Beginner",
       LVL2:"Intermediate",
-      LVL3:"Advanced"
+      LVL3:"Advanced",
+      enLVL:"English (B2)"
     },
     education:{
       title:'Education',
-      college:'Benemérita Universidad Autónoma de Puebla',
+      college:'Benemerita Universidad Autonoma de Puebla',
       career:'Bachelor’s Degree in Information Technology Engineering',
       gpa:'GPA: 3.7',
       date:"January 2021 – July 2025",
@@ -68,8 +75,9 @@ const messages = {
   },
   es: {
     presentation: {
-      title_pt1: "Desarrollador Web",
+      title_pt1: "Desarrollador Frontend & Diseñador UX/UI",
       title_pt2: "Ingeniero en Tecnologías de La Información",
+      ctaBtn:'Saber más'
       },
     aboutme:{
       title:"Acerca de Mí",
@@ -82,7 +90,12 @@ const messages = {
         title:"BMTools",
         role:"Desarrollador Frontend & Diseñador UX/UI",
         location:"Puebla, México",
-        dates:"Julio 2025",
+        dates:"Julio 2025 - Presente",
+        A1:'Liderazgo en el ciclo de vida de productos, desde la ideación y el prototipado en Figma hasta la implementación en código funcional, asegurando una experiencia de usuario intuitiva en plataformas SaaS.',
+        A2:'Desarrollo de interfaces dinámicas y modulares, creando componentes reutilizables con la lógica de programación necesaria para interactuar directamente con la base de datos.',
+        A3:'Optimización y rediseño de productos digitales, mejorando la usabilidad y la arquitectura de la información para aumentar el rendimiento y las métricas clave de negocio.',
+        A4:'Implementación de control de versiones con Git/GitHub, gestionando la integración de nuevas funcionalidades y asegurando la colaboración eficiente entre equipos de desarrollo.',
+        A5:'Gestión de plataformas a gran escala, administrando configuraciones clave y asegurando la correcta actualización y mantenimiento de contenido para productos complejos.'
       },
       dfsoft:{
         title:"DFSOFT",
@@ -107,7 +120,15 @@ const messages = {
       T7:"Idiomas",
       LVL1:"Básico",
       LVL2:"Intermedio",
-      LVL3:"Avanzado"
+      LVL3:"Avanzado",
+      enLVL:"Inglés (B2)"
+    },
+    education:{
+      title:'Education',
+      college:'Benemerita Universidad Autonoma de Puebla',
+      career:'Bachelor’s Degree in Information Technology Engineering',
+      gpa:'Promedio: 9.36',
+      date:"Enero 2021 – Julio 2025",
     },
     message: {
       hello: "¡Hola!",

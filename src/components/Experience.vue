@@ -107,11 +107,11 @@ onMounted(() => {
         <div class="flex jc-sb ai-fe mq-column">
             <div>
                 <h4 class="subtitle" style="margin-bottom: 0;">{{ role }}</h4>
-                <h4 class="subtitle-2">{{ title }}</h4>
+                <h4 class="subtitle-2 fw-r color-b2">{{ title }}</h4>
             </div>
             <div class="txt-r">
-                <h4 class="subtitle-2" style="margin-bottom: 0;">{{ dates }}</h4>
-                <h4 class="subtitle-2 mq-off">{{ location }}</h4>
+                <h4 class="subtitle-2 fw-r color-b3" style="margin-bottom: 0;">{{ dates }}</h4>
+                <h4 class="subtitle-2 fw-r color-b5 mq-off">{{ location }}</h4>
             </div>
         </div>
         <div class="display-ib">
