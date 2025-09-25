@@ -1,8 +1,10 @@
 //VAR
 $Inter: "Inter", sans-serif
+$Italic: "Bodoni Moda", serif;
 $Open-Sans: "Open Sans", sans-serif
 $Helvetica: Helvetica, sans-serif
 //FONT SIZES
+$s14: 0.875rem
 $s16: 1rem
 $s18:1.125rem
 $s20:1.25rem
@@ -34,6 +36,13 @@ $aqua-8:#0f718f
 $aqua-9:#165c74
 $aqua-10:#174d62
 $aqua-11:#093446
+//blacks
+$b6:#84858c
+$b5:#696a71
+$b4:#595961
+$b3:#4c4d52
+$b2:#434347
+$b1:#3b3b3e
 
 //HTML
 html,
@@ -124,7 +133,7 @@ video
     vertical-align: baseline
 html, body
     font-family: $Inter
-    font-size: $s16
+    font-size: $s14
     //margin: 20px 15px
     //padding: 0px
     scrollbar-width: thin
@@ -136,7 +145,10 @@ h1, h2, h3, h4, h5, h6
     font-family: $Helvetica
 p
     font-size: $s20
+    font-weight: 400
+b
     font-weight: 600
+    color: $aqua-7
 a
     color: $blue-color
     text-decoration: none
@@ -175,8 +187,6 @@ main
     justify-content: space-around
 .jc-sb
     justify-content: space-between
-.animation-nose
-    //style="transform: matrix(1, 0, 0, 1, 0, 30); opacity: 0;"
 .fg-1
     flex-grow: 1
 .gap-10
@@ -200,12 +210,26 @@ main
     width: 60%
 
 //---------PRESENTATION-------
+.head-icon
+    max-width: 30px
+    max-height: 30px
+    path
+        fill: #fff
+        transition: all .15s ease-in-out
+    transition: all .15s ease-in-out   
+    
+.head-icon:hover
+    scale: 1.1
+    path
+        fill: #9ad0d7
 .title-cont-s
     height: 100px
     background: #093446
 .title-cont-g
     //height:500px
     //padding: 100px 0 200px
+    width: 100%
+    height: 87vh
     padding-top: 50px
     color: $white-color
     background: #093446
@@ -221,6 +245,8 @@ main
 .lang:hover
     transition: .3s
     cursor: pointer
+    color: $white-color
+    text-decoration: none
     background-color: $aqua-8
     border-radius: 10px
 .img-presentation
@@ -236,7 +262,18 @@ main
     color: $white-color
 .bg-color-2
     background: $bg-color-2
-
+.color-b1
+    color: $b1
+.color-b2
+    color: $b2
+.color-b3
+    color: $b3
+.color-b4
+    color: $b4
+.color-b5
+    color: $b5
+.color-b6
+    color: $b6
 //---------PADDING-------
 .pd-10-20
     padding: 10px 20px
@@ -262,6 +299,8 @@ main
     font-size: $s36
 .fs-60
     font-size: $s60
+.fw-r
+    font-weight: 400
 .fw-5
     font-weight: 500
 .fw-6
@@ -300,6 +339,16 @@ button
     transition: 0.15s ease-in
 button:hover
     background-color: $aqua-9
+.black-btn
+    @extend button
+    margin-top: 50px
+    font-size: $s32
+    background-color: $dark-color
+
+.black-btn:hover
+    color: #fff
+    background-color: #3b3b3e
+    text-decoration: none
 .layer-1
     width: 100%
     height: 100vh
@@ -354,5 +403,8 @@ button:hover
     
     .card
         padding: 15px 25px
-    
+    .black-btn
+        font-size: $s20
+    .gap-30
+        gap: 20px
 
